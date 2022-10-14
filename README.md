@@ -6,7 +6,7 @@ Defina Ambarwati : [Github](https://github.com/definaa2412)
   In this project, we are going to create a recurrent neural network and train it on a tweet emotion dataset to to recognize emotions in tweets. This is a multi class classification problem. We will be using TensorFlow as our machine learning framework.
   
 ## Dataset
-  The dataset is used from [Hugging Face](https://huggingface.co/datasets/emotion) containing English Twitter messages with six basic emotions: anger, fear, joy, love, sadness, and surprise.
+  The dataset is used from [Hugging Face](https://huggingface.co/datasets/emotion) containing English Twitter messages with six basic emotions: anger, fear, joy, love, sadness, and surprise. This data consists of three data set, such as train data, validation data and test data with each total data 16000, 2000, 2000 respectively.
   
 ## Summary
 ### Data Preprocessing
