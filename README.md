@@ -22,9 +22,39 @@ $\qquad$ Make all the length sentences should be at the same size.
 
 $\qquad$ Convert the "string" label format to numeric format.
 
-### Training the Model
+### Train the Model
 
-Train the TensorFlow model for 20 epochs and the conditional callback with the detail accuracy each epoch as follow:
+Train the TensorFlow model for 20 epochs and the conditional callback with the accuracy and validation accuracy details for each epoch as follow:
+
+![Acc details](https://github.com/definaa2412/Tweet-Emotion-Detection/blob/main/images/Accuracy%20details.png)
+
+### Evaluate the Model
+
+Evaluate the model in test data set with an accuracy 89%. It can be said that the model is good enough in classifying.
+
+![Acc eval](https://github.com/definaa2412/Tweet-Emotion-Detection/blob/main/images/Accuracy%20Evaluate.png)
+
+### Confusion Matrix
+
+<div align="center">
+
+![cm](https://github.com/definaa2412/Tweet-Emotion-Detection/blob/main/images/cm.png)
+
+</div>
+ 
+  From confusion matrix above, mostly our model predict the correct result but it seems that the missclassification still occur between love and joy classes. It's probably caused by our data classes which are not too balance.
+  
+### Classification Report
+
+<div align="center">
+
+![cr](https://github.com/definaa2412/Tweet-Emotion-Detection/blob/main/images/cr.png)
+
+</div>
+
+  From the output above, mostly the metric value is good. Although, the precision and recall for class 1 ("surprise") is a bit off good because it has less data when compared to other classes.
+
+
 
 
 
